@@ -137,25 +137,25 @@ box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     padding:5% 15%;
 }
 .culture-img{
-    width: 100%;
+    width: 80%;
 }
+
 .culture-text-box h2{
-    margin-top: 5rem;
+    margin-top:8rem;
+    /* margin-left: 2rem; */
     font-family:"Ubuntu";
     color:#495464;
     text-transform: capitalize;
 }
 
-.culture-text-box li{
+.culture-text-box p{
     margin-top: 2rem;
     width: 70%;
     color:#495464;
-    list-style:none;
+    /* margin-left: 2rem; */
+
 }
-.culture-text-box ul i{
-    background-color:#495464;
-    margin-right: 5px;
-}
+
 
 /* footer-section */
 
@@ -270,7 +270,7 @@ form label{
     .culture-text-box h2{
         margin-top: 0;
     }
-    .culture-text-box li{
+    .culture-text-box p{
         margin-top: 1rem;
         width: 100%;
 
@@ -309,10 +309,10 @@ form label{
     .culture-section{
         padding:3%;
     }
-    .culture-text-box li{
+    .culture-text-box p{
         margin-top: 1rem;
         width: 100%;
-        list-style:none;
+
     }
 }
 
