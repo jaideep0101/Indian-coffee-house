@@ -1,0 +1,271 @@
+body{
+    scroll-behavior: smooth;
+    background-color:#F4F4F2 ;
+    width:100%;
+}
+.title-section
+{
+    box-sizing: border-box;
+    padding:10% 15%;
+    background-image:url('https://images.unsplash.com/photo-1626868180657-a1240e21ba35?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80'),url("https://images.unsplash.com/photo-1626868180643-b6c559b6f66b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80");
+    background-position: right bottom,left bottom;
+    background-repeat: no-repeat,no-repeat;
+    background-size: 50%,50%;
+    height: 700px;
+}
+.title-text-box
+{
+  text-align: center;
+  margin-top: 3rem;
+  color:black;
+}
+.title-text-box h1{
+    margin: 2rem 0;
+    font-size: 3rem;
+    font-family: "Ubuntu";
+}
+.title-text-box p{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+/* section-two */
+
+.section-two{
+    padding:3% 15%;
+}
+.tagline{
+    font-family: "Ubuntu";
+    text-align: center;
+    line-height: 2; 
+    color:#495464;
+}
+.tagline h3{
+    margin: 3rem 0;
+}
+
+
+/* section-three */
+
+.menu{
+    padding:3% 15%;
+    text-align: center;
+    color:#495464;
+}
+.menu h3{
+    font-family: "Ubuntu";
+    margin:2rem 0;
+}
+.card-container{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.card{
+    width: 350px;
+    height: 400px;
+    margin: 50px;
+    position: relative;
+    overflow: hidden;
+}
+ 
+.card img{
+    width: 350px;
+    height: 400px;
+}
+.card-text{
+    position: absolute;
+    padding:2rem;
+    line-height:2;
+    width:100%;
+    height: 100%;
+    top:0;
+    left:-100%;
+    background: #F4F4F2;
+    color:black;
+    opacity:0.8;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+
+}
+.card-text button:hover{
+    background-color:#495464;
+    color:#F4F4F2;
+    border-color: #495464;
+}
+.card:hover .card-text{
+    left: 0;
+}
+
+   
+
+
+
+/* footer-section */
+
+.footer{
+  
+    color:#495464;
+    background-color: #BBBFCA;
+    padding:3% 15%;
+}
+footer h2{
+text-align: center;
+font-family:"Ubuntu";
+}
+.contect-section{
+    margin-top: 5rem;
+}
+
+form{
+margin-top: 20px;
+}
+
+form input,form textarea{
+    width: 90%;
+    margin: 10px 0;
+    background-color: #FFF;
+    border: none;
+}
+input:focus,textarea:focus{
+    outline: none;
+ }
+form label{
+    display: block;
+}
+.form-button{
+    margin-top: 1rem;
+    color:#495464;
+    border:1px solid #F4F4F2;
+    background-color: #F4F4F2;
+    border:none;
+    padding:.5rem;
+    font-size: 20px;
+    font-weight: 500;
+}
+.form-button:hover{
+    margin-top: 1rem;
+    border:1px solid #495464;
+    color: #F4F4F2;
+    padding:.5rem;
+    font-size: 20px;
+    color:#495464;
+    font-weight: 500;
+}
+.social-icons{
+    margin:10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1350px) {
+    .title-section{
+        padding:10%;
+    }
+    .title-text-box{
+        color:black;
+    }
+    .section-two{
+        padding:3% 10%;
+    }
+    .menu{
+        padding:3% 10%;
+    }
+    .coffee-img-box{
+        height:auto;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+     }
+}
+@media screen and (max-width:950px) {
+    .title-text-box
+    {
+      margin-top: 5rem;
+    }
+    .menu-box
+{
+   
+    margin: 0;
+}
+    .coffee-img-box{
+       justify-content: center;
+       margin-top:1rem ;
+     }
+    .coffee-img-box img{
+        width:80%;
+        height: auto;
+    
+    }
+    .footer-content
+    {
+        margin-top: 3rem;
+        flex-direction: column;
+    }
+    
+    @media screen and (max-width:600px) {
+        .title-section{
+            padding:10% 5%;
+            height: 500px;
+        }
+        .title-text-box{
+            margin-top: 5rem;
+        }
+        .title-text-box h1{
+            font-size: 2rem;
+        }
+        .section-two{
+            padding:3%;
+        }
+        .menu{
+            padding:3%;
+        }
+        .coffee-img-box{
+            padding: 0;
+        }
+        .footer{
+            padding:3% 5%;
+        }
+        .contect-section{
+            margin-top: 3rem;
+        }
+       
+    }
+
+}
+@media screen and (max-width:300px) {
+    .title-section
+    {
+        padding:10% 5%;
+        height: 500px;
+       
+    }
+    .title-text-box h1{
+        margin-top: 4rem;
+        font-size: 30px;
+    }
+    .tagline h3{
+       margin: 1rem 0;
+       font-size: 16px;
+    }
+    .tagline h5{
+        font-size: 14px;
+    }
+    .menu h3{
+        margin:1rem 0;
+    }
+    .card{
+        width: 300px;
+        height: 300px;
+        margin: 0.5rem 0;
+    }
+    .footer{
+        padding:1rem;
+    }
+    .contect-section{
+        margin-top: 1rem;
+    }
+    
+}

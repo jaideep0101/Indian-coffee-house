@@ -1,0 +1,312 @@
+
+/* title section */
+body{
+    scroll-behavior: smooth;
+    background-color:#F4F4F2 ;
+    width:100%;
+}
+
+.title-section{
+    padding: 10% 15%;
+   background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.5)),
+    url("../images/aboutus/nathan-dumlao-6VhPY27jdps-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+   
+}
+
+.title-text{
+    margin-top: 5rem;
+    line-height: 2;
+    font-family: "Ubuntu";
+    text-align: center;
+    color:#F4F4F2;
+}
+
+.title-text button{
+    margin-top: 2rem;
+    border: none;
+    color:#495464;
+    background-color:#F4F4F2;
+    padding:0.5rem 1rem;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border-radius: 10px;
+}
+.title-text button:hover{
+    margin-top: 2rem;
+    border: none;
+    background-color:#495464;
+    color:#F4F4F2;
+    padding:0.5rem 1rem;
+    font-weight: 700;
+    font-family: "Montserrat";
+    border-radius: 10px;
+}
+
+/* community section */
+
+.community-box{
+    padding:4% 15%;
+    border-radius: 10px;
+}
+.community-img{
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #000;
+}
+.community-text-box{
+    padding:1rem;
+    color:#495464;
+   
+}
+.community-box h2{
+    font-family:"Ubuntu";
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.community-box p{
+    margin-top: 3rem;
+    line-height: 2;;
+}
+
+/* our-partner-section */
+
+.our-partners{
+    text-align: center;
+    padding:3% 15%;
+    font-family:"Ubuntu";
+    color:#495464;
+}
+.logo-container{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+  
+}
+.logo:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 4000;
+    background-color: #BBBFCA;
+}
+.logo{
+width: 200px;
+height: 200px;
+margin: 5px;
+border-radius:10px;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+display: flex;
+justify-content:center;
+text-align: center;
+padding:15px;
+background-color:#E8E8E8;
+}
+.logo img{
+width: 100%;
+overflow: hidden;
+}
+
+/* signme-section */
+.sign-me{
+    padding:3% 15% 0;
+    color:#495464;
+}
+.sign-container
+{
+    text-align: center;
+}
+.form{
+    padding:10px;
+}
+.form input{
+    margin:10px ;
+   border-bottom:1px solid #495464;
+   padding:5px
+}
+form input:focus,form textarea:focus{
+    outline: none;
+}
+.form textarea{
+    margin: 10px;
+    height: 200px;
+    border: 1px solid black;
+    width: 100%;
+}
+.sign-container h2{
+    font-family: "Ubuntu";
+    margin: 2rem 0;
+}
+.sign-container p{
+    margin: 2rem 0;
+}
+
+
+/* footer-section */
+
+.footer{
+    color:#495464;
+    background-color: #BBBFCA;
+    padding:3% 15%;
+}
+footer h2{
+text-align: center;
+font-family:"Ubuntu";
+}
+.contect-section{
+    margin-top: 5rem;
+}
+
+form{
+margin-top: 20px;
+}
+
+form input,form textarea{
+    width: 90%;
+    margin: 10px 0;
+    background-color: #F4F4F2;
+    border: none;
+}
+form label{
+    display: block;
+}
+.form-button{
+    margin-top: 1rem;
+    border:1px solid #F4F4F2;
+    background-color: #F4F4F2;
+    padding:.5rem;
+    font-size: 20px;
+    color:#495464;
+    font-weight: 500;
+}
+.form-button:hover{
+    margin-top: 1rem;
+    border:1px solid #495464;
+    color: #F4F4F2;
+    padding:.5rem;
+    font-size: 20px;
+    color:#495464;
+    font-weight: 500;
+}
+.social-icons{
+    margin:10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1350px){
+    .title-section{
+        padding:10% 10%;
+    }
+    
+.community-box{
+    padding:5% 10%;
+}
+.our-partners
+{
+    padding:5% 10%;
+}
+.sign-me
+{
+    padding:5% 10%;
+}
+.footer{
+    padding:5% 10%;
+}
+}
+
+@media screen and (max-width:950px){
+    .title-section{
+        padding:10% 5%;
+    }
+    
+.community-box{
+    padding:5% 5%;
+    text-align: center;
+}
+.our-partners
+{
+    padding:5% 5%;
+}
+.sign-me
+{
+    padding:5% 5%;
+}
+    .community-img-box{
+       display: flex; 
+       justify-content: center; 
+       
+    }
+    .community-img{
+        width: 60%;
+
+    }
+    .community-text-box
+    {
+        margin-top: 2rem;;
+    }
+    .footer{
+        padding:5%;
+    }
+    form input,form textarea{
+        width: 100%;
+    }
+    .footer-content{
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title-section{
+        padding:10% 0%;
+    }
+    .title-text
+    {
+        margin-top: 10rem;
+    }
+.community-box{
+    padding:5% 2%;
+    text-align: center;
+}
+.community-box h2{
+    font-size: 30px;
+}
+.community-box p{
+    margin-top: 1rem;
+}
+.our-partners
+{
+    padding:5% 2%;
+}
+.sign-me
+{
+    padding:5% 0%;
+}
+}
+
+@media screen and (max-width:300px) {
+    .title-section{
+        padding: 5% 0;
+        height: 500px;
+       
+    }
+    
+ .footer{
+     padding:1rem;
+ }
+ .contect-section{
+     margin-top: 1rem;
+ }
+ .community-box{
+    padding:0.5rem;
+ }
+ .community-text-box h2{
+ font-size: 22px;
+ }
+ .community-text-box p{
+    font-size: 14px;
+ }
+ }

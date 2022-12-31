@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Ubantu";
+    src: url("/fonts/Ubuntu/Ubuntu-Medium.ttf");
+}
+.navbar-container
+{
+    padding:0.5rem 5rem;
+    background-color:#F4F4F2;
+    border-bottom: 1px solid #495464;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.title-name{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#495464;
+    font-family:Ubantu;
+}
+/* .title-name span{
+    color:#FFF;
+}  */
+/* .title-name:hover{
+    color:#A
+} */
+.navbar{
+    margin-bottom:1rem;
+   
+}
+.links{
+   
+    font-weight: 600;
+    margin-left:1rem;
+    border-radius: 2rem;
+    color:#495464;
+    text-transform: uppercase;
+
+}
+
+@media screen and (max-width:950px){
+    .navbar-container{
+        padding:0.5rem 2rem;
+     }
+     .links{
+        margin:0;
+     }
+}
+@media screen and (max-width:600px){
+    .navbar-container{
+        padding:.5rem;
+     }
+}
+@media screen and (max-width:300px) {
+    .title-name{
+        font-size:1rem;
+
+    } 
+    .links{
+   
+        font-size:0.8rem; 
+    } 
+    .title-text-box{
+        margin-top: 0;
+    }
+    .hamburger{
+        font-size: 15px;
+    }
+    .navbar{
+        margin-bottom:0;
+       
+    }
+}

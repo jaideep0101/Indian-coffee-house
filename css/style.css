@@ -1,0 +1,350 @@
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./fonts/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+@font-face {
+    font-family: "Ubantu";
+    src: url("/fonts/Ubuntu/Ubuntu-Medium.ttf");
+}
+body{
+    scroll-behavior: smooth;
+    background-color:#F4F4F2 ;
+    width:100%;
+}
+.title-section{
+    background-image:  linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, .8)), url('https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80');
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:10% 15%;
+    color: #F4F4F2;
+}
+.title-text-box h1{
+    font-family: "Ubuntu";
+    font-size: 4rem;
+    margin-top:4rem;
+}
+.title-text-box button{
+    margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding:1rem;
+  background-color: #E8E8E8;
+  font-weight: 700;
+  color:#495464;
+
+}
+.title-text-box button:hover{
+    margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  padding:1rem;
+  color: #E8E8E8;
+  font-weight: 700;
+  background-color:#495464;
+
+}
+
+
+/* carousal section */
+.carousel-section{
+    padding:3% 15%;
+}
+
+.carousal-box img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.carousel-text-box{
+    width: 80%;
+    font-family: "Ubuntu";
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color:#495464;
+
+}
+.carousel-text-box p{
+    font-family: "Montserrat";
+}
+
+.subscription-button{
+    margin-top: 2rem;
+    font-family: "Montserrat";
+}
+.subscription-button button{
+    border: 1px solid #495464;
+    padding:0.5rem;
+    background-color: #495464;
+    color:#F4F4F2;
+}
+.subscription-button button:hover{
+    border:1px solid #495464;
+    padding:0.5rem;
+    color: #495464;
+    background-color:#F4F4F2;
+}
+/* testimonials-section */
+.testimonials-section
+{
+    padding:3% 15%;
+}
+.testimonials-section h2{
+    text-align: center;
+    margin: 2rem;
+    font-family: "Ubuntu";
+  color: #495464;
+}
+.cards{
+display: flex;
+justify-content: space-evenly;
+}
+.card{
+padding:1rem;
+text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 0.2rem;
+background-color: #E8E8E8;
+border-radius: 10px;
+border:2px solid #BBBFCA;
+box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.card img{
+    width: 100px;
+    height:100px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.card h4{
+    margin-top: 1rem;
+    color:#495464;
+}
+.card p{
+    margin-top: 1rem;
+    line-height: 2;
+    color:#495464;
+}
+.stars{
+    color:#495464;
+}
+
+/* culute-section  */
+.culture-section{
+    padding:5% 15%;
+}
+.culture-img{
+    width: 100%;
+}
+.culture-text-box h2{
+    margin-top: 5rem;
+    font-family:"Ubuntu";
+    color:#495464;
+    text-transform: capitalize;
+}
+
+.culture-text-box li{
+    margin-top: 2rem;
+    width: 70%;
+    color:#495464;
+    list-style:none;
+}
+.culture-text-box ul i{
+    background-color:#495464;
+    margin-right: 5px;
+}
+
+/* footer-section */
+
+.footer{
+    /* color:#F4F4F2; */
+    /* color:#E8E8E8; */
+    color:#495464;
+    background-color: #BBBFCA;
+    padding:3% 15%;
+}
+footer h2{
+text-align: center;
+font-family:"Ubuntu";
+}
+.contect-section{
+    margin-top: 5rem;
+}
+
+form{
+margin-top: 20px;
+}
+
+form input,form textarea{
+    width: 90%;
+    margin: 10px 0;
+    background-color: #F4F4F2;
+    border: none;
+}
+input:focus,textarea:focus{
+   outline: none;
+}
+form label{
+    display: block;
+}
+.form-button{
+    margin-top: 1rem;
+    border:1px solid #F4F4F2;
+    color:#495464;
+    background-color: #F4F4F2;
+    padding:.5rem;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.form-button:hover{
+    margin-top: 1rem;
+    border:1px solid #495464;
+    color:#495464;
+    background-color: #fff;
+    padding:.5rem;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 5px;
+}
+.social-icons{
+    margin:10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1150px) {
+    .title-text-box{ 
+        text-align: center;
+    }
+    /* carousal section */
+.carousel-section{
+    padding:3% 10%;
+}
+.carousel-text-box{
+    margin: 0;
+}
+.testimonials-section
+{
+    padding:3% 10%;
+}
+.culture-section{
+    padding:5% 10%;
+}
+.footer{
+    padding:3% 10%;
+}
+}
+@media screen and (max-width:950px) {
+    .title-section{
+        padding:10% 5% 4%;
+        
+    }
+   
+    .carousel-section{
+        padding:3% 5%;
+    }
+    .carousel-text-box{
+        margin-top: 2rem;
+        width: 100%;
+        font-family: "Ubuntu";
+        text-align: center;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .culture-section{
+        padding:5% 10%;
+    }
+    .culture-img-box{
+        display: flex;
+        justify-content: center;
+    }
+    .culture-text-box{
+        text-align: center;
+        margin-top: 1rem;
+    }
+    .culture-text-box h2{
+        margin-top: 0;
+    }
+    .culture-text-box li{
+        margin-top: 1rem;
+        width: 100%;
+
+    }
+    .footer-content{
+        margin-top: 4rem;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .title-section{
+        padding:10% 3% 5;
+    }
+    .title-text-box{
+        margin-top: 5rem;
+    }
+    .title-text-box{
+        margin-top: 5rem;
+    }
+    .title-text-box h5{
+        margin-top: 1rem;
+    }
+    .title-text-box button{
+        margin-top: 2rem;
+    }
+    .carousel-section{
+        padding:3% 5%;
+    }
+    .carousel-box{
+        padding:0px;
+    }
+    .testimonials-section{
+        padding: 3%;
+    }
+    .culture-section{
+        padding:3%;
+    }
+    .culture-text-box li{
+        margin-top: 1rem;
+        width: 100%;
+        list-style:none;
+    }
+}
+
+@media screen and (max-width:300px) {
+   .title-section{
+   padding:0;
+   height: 500px;
+   }
+   
+   .title-text-box h1{
+    margin-top: 10rem;
+    font-size: 30px;
+   }
+   .title-text-box h5{
+    font-size: 15px;
+   }
+   .title-text-box button{
+  padding:0.5rem;
+}
+.carousel-box{
+    padding:0;
+}
+.testimonials-section{
+    padding:0;
+}
+.culture-section{
+    padding:0;
+}
+.footer{
+    padding:1rem;
+}
+.contect-section{
+    margin-top: 1rem;
+}
+}
